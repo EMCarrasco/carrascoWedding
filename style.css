@@ -1,0 +1,79 @@
+
+
+
+body{
+    text-align: center;
+    background: #264453;
+  font-family: sans-serif;
+  font-weight: 100;
+   color: #FFFFFF;
+}
+
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+button.rsvp_btn{
+  background: #234656;
+}
+
+
+.jumbotron{
+    background-color:##8A2BE2;
+    text-align:center;
+}
+
+.blackBoxDiv h2 {
+  color:#FFFFFF;
+}
+
+#detailsdiv > div{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    background: #021417;
+}
+
+#detailsdiv > div{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    background: #021417;
+}
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #234656;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #021417;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
