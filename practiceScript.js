@@ -1,17 +1,8 @@
 
 // Update the count down every 1 second
-var x = setInterval(getTime(), 1000);
-
-
-function myPopUp() {
-
-	// Get todays date and time
-  	var x = getTime();
-  	
-}
-
-function getTime(){
-	// Set the date we're counting down to
+var x = setInterval(function(
+		   
+		   // Set the date we're counting down to
 	var countDownDate = new Date("Oct 28, 2017 02:00:00").getTime();
 
 	// Get todays date and time
@@ -27,8 +18,22 @@ function getTime(){
 
 
   doDisplay(days, hours, minutes, seconds, distance);
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   ), 1000);
 
-}
+/*function getTime(){
+	
+
+}*/
 
 function doDisplay(days, hours, minutes, seconds, distance) {
 
