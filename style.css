@@ -36,7 +36,7 @@ button.rsvp_btn{
     text-align: center;
     font-size: 30px;
     background: #021417;
-    width: 74px;
+  
 }
 
 #detailsdiv > div{
@@ -66,6 +66,7 @@ button.rsvp_btn{
     border-radius: 3px;
     background: #234656;
     display: inline-block;
+      width: 74px;
 }
 
 #clockdiv div > span{
@@ -73,6 +74,7 @@ button.rsvp_btn{
     border-radius: 3px;
     background: #021417;
     display:block;
+      width: 74px;
 }
 
 .smalltext{
