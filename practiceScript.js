@@ -17,20 +17,7 @@ var x = setInterval(function(){
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 
-  doDisplay(days, hours, minutes, seconds, distance);
-		   
-		   
-		 		   
-}  , 1000);
-
-/*function getTime(){
-	
-
-}*/
-
-function doDisplay(days, hours, minutes, seconds, distance) {
-
-	alert( 'Hello, world! the days is: ' + days ); 
+  alert( 'Hello, world! the days is: ' + days ); 
 
 	document.getElementById("demoDays").innerHTML = days;
   	document.getElementById("demoHours").innerHTML = hours;
@@ -45,5 +32,17 @@ if(distance < 0){ // If the count down is finished, write some text
 		  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
 		  + minutes + "m " + seconds + "s ";
 	 }
+	   
+		   
+		 		   
+}  , 1000);
+
+/*function getTime(){
+	
 
 }
+
+function doDisplay(days, hours, minutes, seconds, distance) {
+
+	
+}*/
