@@ -1,13 +1,6 @@
 
-
-
-
 // Update the count down every 1 second
 var x = setInterval(getTime(), 1000);
-
-
-
-
 
 
 function myPopUp() {
