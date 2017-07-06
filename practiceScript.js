@@ -17,7 +17,7 @@ var x = setInterval(function(){
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 
-  alert( 'Hello, world! the days is: ' + days ); 
+//  alert( 'Hello, world! the days is: ' + days ); 
 
 	document.getElementById("demoDays").innerHTML = days;
   	document.getElementById("demoHours").innerHTML = hours;
