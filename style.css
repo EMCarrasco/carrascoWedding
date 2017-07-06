@@ -33,7 +33,7 @@ button.rsvp_btn{
 #detailsdiv > div{
     font-family: sans-serif;
     color: #fff;
-    display: inline-block;
+    display: block;
     font-weight: 100;
     text-align: center;
     font-size: 30px;
