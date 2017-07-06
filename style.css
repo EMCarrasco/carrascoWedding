@@ -43,7 +43,7 @@ button.rsvp_btn{
 #detailsdiv > div{
     font-family: sans-serif;
     color: #fff;
-    display: inline-block;
+    display: block;
     font-weight: 100;
     text-align: center;
     font-size: 30px;
@@ -53,7 +53,7 @@ button.rsvp_btn{
 #clockdiv{
     font-family: sans-serif;
     color: #fff;
-    display: inline-block;
+    display: block;
     font-weight: 100;
     text-align: center;
     font-size: 30px;
@@ -70,7 +70,7 @@ button.rsvp_btn{
     padding: 15px;
     border-radius: 3px;
     background: #021417;
-    display: inline-block;
+    display:block;
 }
 
 .smalltext{
